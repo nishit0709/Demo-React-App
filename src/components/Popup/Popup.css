@@ -1,0 +1,78 @@
+/* Popup CSS */
+.popup-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    padding-right: 10px;
+}
+
+.grid-container label{
+    text-align: center;
+    padding-top: 6px;
+}
+
+.grid-container input{
+    height: 2em;
+    border-radius: 7px;
+    width: 96%;
+}
+
+.popup-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    background-color: #e5e5e5;
+    border-radius: 0 0 20px 20px;
+    padding: 0 10px 0 10px;
+}
+
+.popup-footer button{
+    font-size: 0.8em;
+    border-radius: 10px;
+    height: 2.9em;
+}
+
+.popup-container h5{
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+#removeBtn{
+    margin-top: 4px;
+    background-color: #d2d2d2;
+    border: none;
+    border-radius: 8px;
+    height: 2em;
+    cursor: pointer;
+}
+
+#cancelBtn{
+    border: none;
+    display: inline;
+    font-size: small;
+    background-color: #e5e5e5;
+    margin-top: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#saveBtn{
+    height: 2.5em;
+    background-color: rgb(163, 0, 163);
+    color: #fff;
+    cursor: pointer;
+}
